@@ -1,3 +1,6 @@
+This software project repositpry is https://github.com/glycoinfo/GlycanFormatConverter-cli .
+
+-----------------
 This project is a client for creating an executable environment for GlycanFormatConverter.
 Please see also GlycanFormatConverter (https://github.com/glycoinfo/GlycanFormatConverter)
 
