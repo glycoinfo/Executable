@@ -4,7 +4,7 @@
 
 ## Usage
 
-* INPUT: SDF, OUTPUT: WURCS
+* Example-1: INPUT: SDF, OUTPUT: WURCS
 
 ```
 $ java -jar MolWURCS.jar --title_property_id INPUT_WURCS  --in sdf --out wurcs ./test.sdf 
@@ -55,7 +55,7 @@ WURCS=2.0/1,1,0/[a2122h-1b_1-5]/1/
 $$$$
 ```
 
-* INPUT: WURCS, OUTPUT: SDF
+* Example-2: INPUT: WURCS, OUTPUT: SDF
 
 
 ```
@@ -104,7 +104,7 @@ $$$$
 ```
 
 
-* INPUT: SDF, OUTPUT: WURCS
+* Example-3: INPUT: SDF, OUTPUT: WURCS
 
 ```
 $ cat ./test.sdf | java -jar ./MolWURCS.jar -p ID --in sdf --out wurcs 
@@ -117,7 +117,7 @@ $ cat ./test.sdf | java -jar ./MolWURCS.jar -p ID --in sdf --out wurcs
 Title	WURCS=2.0/1,1,0/[a2122h-1b_1-5]/1/ 
 ```
 
-* INPUT: SDF, OUTPUT: WURCS file
+* Example-4: INPUT: SDF, OUTPUT: WURCS file
 
 ```
 $ cat ./test.sdf | java -jar ./MolWURCS.jar -p ID --in sdf --out wurcs 1>wurcs.txt 
