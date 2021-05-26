@@ -2,7 +2,28 @@
 
 * Repository: https://gitlab.com/glycoinfo/molwurcs
 
+
+
 ## Usage
+
+### Options
+
+| option | argument | description |
+| ------ | -------- | ----------- |
+| -i, --in          | FORMAT=[wurcs\|mdlv2000\|sdf\|mol2\|smi] | Set input format |
+| -o, --out         | FORMAT=[wurcs\|mdlv2000\|sdf\|mol2\|smi] | Set output format |
+|     --with-aglycone     |             | Set option for outputting WURCS with aglycone |
+| -p, --title_property_id | PROPERTY_ID | Use property as title, which key of the value is <PROPERTY_ID> |
+
+### Available Formats
+| format | description |
+| ------ | ----------- |
+| wurcs    | WURCS |
+| mdlv2000 | MDLV2000 Format |
+| sdf      | SD File |
+| mol2     | Mol2 |
+| smi      | SMILES |
+
 
 * Example-1: INPUT: SDF, OUTPUT: WURCS
 
