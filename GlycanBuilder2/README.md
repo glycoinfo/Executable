@@ -7,6 +7,7 @@ GlycanBuilder2
 
 Release Note:
 
-* macOS
+* 2021-12-02: GlycanBuilder2_for_win 1.14.0
 
-  * 2021-12-01: GlycanBuilder2_for_mac 1.14.0
+* 2021-12-01: GlycanBuilder2_for_mac 1.14.0
+
